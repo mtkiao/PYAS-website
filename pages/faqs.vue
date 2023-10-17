@@ -52,7 +52,7 @@ export default {
           answer: "PYAS 杀毒软件是完全开源的，所以不会收集任何有关用户的隐私数据。​",
         },
         {
-          question: "我们对于 PYAS 防毒软体的定义是什么？",
+          question: "我们对于 PYAS 杀毒软件的定义是什么？",
           answer: "PYAS 属于辅助类杀毒软件，我们仍然在努力守护用户的数据及隐私安全。​",
         },
       ]
