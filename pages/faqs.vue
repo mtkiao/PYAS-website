@@ -49,7 +49,7 @@ export default {
         },
         {
           question: "使用 PYAS 时，会收集哪些隐私数据？",
-          answer: "PYAS 防毒软体是完全开源的，所以不会收集任何有关用户的隐私数据。​",
+          answer: "PYAS 杀毒软件是完全开源的，所以不会收集任何有关用户的隐私数据。​",
         },
         {
           question: "我们对于 PYAS 防毒软体的定义是什么？",
