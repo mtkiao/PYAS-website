@@ -1,14 +1,14 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col cols="12" sm="10" md="10" lg="10" class="mt-6 mt-lg-16 mt-xl-16 mt-xxl-16 py-6 py-lg-16 py-xl-16 py-xxl-16">
+    <v-col cols="12" sm="10" md="10" lg="10" class="mt-6 mt-lg-16 mt-xl-16 mt-xxl-16 py-6 py-lg-10 py-xl-10 py-xxl-10">
 
       <v-card variant="tonal" :elevation="0" class="transparent mt-6 mt-lg-16 mt-xl-16 mt-xxl-16">
         <v-card-title class="font-weight-black justify-center text-h3 text-lg-h2">
           <p class="pyas mx-3 my-0">PYAS</p> 杀毒软件
         </v-card-title>
 
-        <div class="font-weight-black d-flex text-center justify-center text-h6">
-          当前版本: <p class="version my-0">{{ PYAS.version }}</p> | 更新日期: {{ PYAS.date }}
+        <div class="font-weight-black d-flex text-no-wrap justify-center text-h6">
+          当前版本: <p class="version my-0 mx-1">{{ PYAS.version }}</p> | 更新日期: {{ PYAS.date }}
         </div>
 
         <v-card-actions class="mt-2">
@@ -37,8 +37,8 @@ export default {
       PYAS: {
         version: '2.8.7',
         date: '2023/10/15',
-        downloadLink: "https://github.com/87owo/PYAS/releases/download/v2.8.7/PYAS_Setup.exe",
-        downloadLink2: "https://github.com/87owo/PYAS/releases/download/v2.8.7/PYAS.zip",
+        downloadLink: "https://ghproxy.com/github.com/87owo/PYAS/releases/download/v2.8.7/PYAS_Setup.exe",
+        downloadLink2: "https://ghproxy.com/github.com/87owo/PYAS/releases/download/v2.8.7/PYAS.zip",
         githubLink: "https://github.com/87owo/PYAS",
       }
     }

@@ -37,8 +37,8 @@ export default {
 
 <style scoped>
   .nav {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   @media(max-width: 1280px) {
     .nav {

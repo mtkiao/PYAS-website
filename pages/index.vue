@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col cols="12" sm="10" md="10" lg="10" class="mt-6 mt-lg-16 mt-xl-16 mt-xxl-16 py-6 py-lg-16 py-xl-16 py-xxl-16">
+    <v-col cols="12" sm="10" md="10" lg="10" class="mt-6 mt-lg-16 mt-xl-16 mt-xxl-16 py-6 py-lg-10 py-xl-10 py-xxl-10">
 
       <v-card variant="tonal" :elevation="0" class="transparent mt-6 mt-lg-16 mt-xl-16 mt-xxl-16">
         <v-card-title class="font-weight-black justify-center text-h3 text-lg-h2">
@@ -30,8 +30,8 @@
 
       <v-card variant="tonal" :elevation="0" class="transparent content-block">
         <div class="d-xxl-flex d-xl-flex d-lg-flex">
-          <v-col cols="12" sm="12" md="12" lg="12" xl="6">
-            <v-card-title class="font-weight-black text-h3 justify-center justify-lg-center justify-xl-start justify-xxl-start">
+          <v-col cols="12" sm="12" md="12" lg="6" xl="6">
+            <v-card-title class="font-weight-black text-h3 text-center justify-center justify-lg-center justify-xl-start justify-xxl-start">
               多重系统安全防护
             </v-card-title>
 
@@ -45,8 +45,11 @@
           </v-col>
 
           <v-divider vertical class="mx-6 d-none d-xl-flex d-xxl-none"></v-divider>
-          <v-col cols="12" sm="12" md="12" lg="12" xl="6" class="d-none d-xl-flex d-xxl-none justify-center justify-lg-center justify-xl-start justify-xxl-start">
-            <v-img class="ms-lg-6 ms-xl-6 ms-xll-6" :width="592" :height="425" aspect-ratio="16/9" src="/PYAS_UI/PYAS_GUI.png" alt="使用體驗"></v-img>
+          <v-col cols="12" sm="12" md="12" lg="6" xl="6" class="d-none d-xl-flex d-xxl-none align-center justify-center justify-xl-start justify-xxl-start">
+            <v-img class="ms-lg-6 ms-xl-6 ms-xll-6" :max-width="640" :max-height="425" src="/PYAS_UI/PYAS_GUI.png" alt="使用體驗"></v-img>
+          </v-col>
+          <v-col cols="12" sm="12" md="12" lg="6" xl="6" class="d-none d-lg-flex d-xl-none align-center justify-center justify-xl-start justify-xxl-start">
+            <v-img class="ms-lg-6 ms-xl-6 ms-xll-6" :max-width="457" :max-height="287" src="/PYAS_UI/PYAS_GUI_small.png" alt="使用體驗"></v-img>
           </v-col>
         </div>
       </v-card>
@@ -179,7 +182,7 @@ export default {
 
   .pyas {
     font-weight: bold;
-    background: -webkit-linear-gradient(45deg, rgb(204, 204, 204) 20%, rgb(134, 134, 134) 90% );
+    background: -webkit-linear-gradient(45deg, rgb(223, 223, 223) 20%, rgb(189, 189, 189) 90% );
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
