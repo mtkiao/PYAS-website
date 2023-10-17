@@ -18,7 +18,7 @@
             </v-col>
 
             <v-col cols="12" sm="6" md="6" lg="6" class="d-inline-flex justify-center justify-sm-start justify-md-start">
-              <v-btn variant="tonal" class="font-weight-black text-h6 mt-1 accent button rounded-pill" :href="PYAS.downloadLink"> 免安装版➞ </v-btn>
+              <v-btn variant="tonal" class="font-weight-black text-h6 mt-1 accent button rounded-pill" :href="PYAS.downloadLink2"> 免安装版➞ </v-btn>
             </v-col>
           </v-row>
         </v-card-actions>

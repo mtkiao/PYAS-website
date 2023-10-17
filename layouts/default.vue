@@ -8,11 +8,11 @@
         </a>
       </span>
       <v-spacer />
-      <v-btn variant="tonal" class="font-weight-black rounded-lg mx-1" nuxt to="/"> 主頁 </v-btn>
-      <v-btn variant="tonal" class="font-weight-black rounded-lg mx-1 d-none d-sm-flex" nuxt to="/download"> 下载 </v-btn>
-      <v-btn variant="tonal" class="font-weight-black rounded-lg mx-1 d-none d-sm-flex" nuxt to="/faqs"> 常见问题 </v-btn>
-      <v-btn variant="tonal" class="font-weight-black rounded-lg mx-1" nuxt to="/partners"> 合作伙伴 </v-btn>
-      <v-btn variant="tonal" class="font-weight-black rounded-lg mx-1" nuxt to="/about"> 关于 </v-btn>
+      <v-btn variant="text" class="font-weight-black rounded-xl mx-1" nuxt to="/"> 主頁 </v-btn>
+      <v-btn variant="text" class="font-weight-black rounded-xl mx-1 d-none d-sm-flex" nuxt to="/download"> 下载 </v-btn>
+      <v-btn variant="text" class="font-weight-black rounded-xl mx-1 d-none d-sm-flex" nuxt to="/faqs"> 常见问题 </v-btn>
+      <v-btn variant="text" class="font-weight-black rounded-xl mx-1" nuxt to="/partners"> 合作伙伴 </v-btn>
+      <v-btn variant="text" class="font-weight-black rounded-xl mx-1" nuxt to="/about"> 关于 </v-btn>
     </v-app-bar>
 
     <v-main>
