@@ -35,10 +35,10 @@ export default {
   data() {
     return {
       PYAS: {
-        version: '2.8.7',
-        date: '2023/10/15',
-        downloadLink: "https://ghproxy.com/github.com/87owo/PYAS/releases/download/v2.8.7/PYAS_Setup.exe",
-        downloadLink2: "https://ghproxy.com/github.com/87owo/PYAS/releases/download/v2.8.7/PYAS.zip",
+        version: '2.8.8',
+        date: '2023/10/20',
+        downloadLink: "https://ghproxy.com/github.com/87owo/PYAS/releases/download/v2.8.8/PYAS_Setup.exe",
+        downloadLink2: "https://ghproxy.com/github.com/87owo/PYAS/releases/download/v2.8.8/PYAS.zip",
         githubLink: "https://github.com/87owo/PYAS",
       }
     }
