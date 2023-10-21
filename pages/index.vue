@@ -24,7 +24,7 @@
           </v-row>
         </v-card-actions>
         <div class="font-weight-black d-flex text-center justify-center mt-16 text-h6">
-          当前版本: <p class="version mx-1 my-0">2.8.7</p>
+          当前版本: <p class="version mx-1 my-0">{{ PYASVersion }}</p>
         </div>
       </v-card>
 
@@ -98,6 +98,7 @@ export default {
   name: 'IndexPage',
   data() {
     return {
+      PYASVersion: '2.8.8',
       pictures: [
         {
           title: "电脑状态",
