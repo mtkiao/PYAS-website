@@ -37,8 +37,8 @@ export default {
       PYAS: {
         version: '2.9.1',
         date: '2023/11/10',
-        downloadLink: "https://github.com/87owo/PYAS/releases/download/v2.9.1/PYAS_Setup.exe",
-        downloadLink2: "https://github.com/87owo/PYAS/releases/download/v2.9.1/PYAS.zip",
+        downloadLink: "/pyas/PYAS_Setup.exe",
+        downloadLink2: "/pyas/PYAS.zip",
         githubLink: "https://github.com/87owo/PYAS",
       }
     }
