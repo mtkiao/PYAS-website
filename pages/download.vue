@@ -35,10 +35,10 @@ export default {
   data() {
     return {
       PYAS: {
-        version: '2.9.5',
-        date: '2023/12/8',
-        downloadLink: "/pyas/PYAS_Setup.exe",
-        downloadLink2: "/pyas/PYAS.zip",
+        version: '2.9.9',
+        date: '2024/01/11',
+        downloadLink: "https://github.com/87owo/PYAS/releases/download/v2.9.9/PYAS_Setup.exe",
+        downloadLink2: "https://github.com/87owo/PYAS/releases/download/v2.9.9/PYAS.zip",
         githubLink: "https://github.com/87owo/PYAS",
       }
     }

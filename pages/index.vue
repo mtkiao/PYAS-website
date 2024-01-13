@@ -98,7 +98,7 @@ export default {
   name: 'IndexPage',
   data() {
     return {
-      PYASVersion: '2.9.5',
+      PYASVersion: '2.9.9',
       pictures: [
         {
           title: "电脑状态",
